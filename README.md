@@ -20,4 +20,4 @@ npm run build-prod
 
 ## Demo
 
-https://rolling-scopes-school.github.io/vladi4-gh-JSFE2022Q1/online-store/
+https://vladi4-gh.github.io/online-store/
