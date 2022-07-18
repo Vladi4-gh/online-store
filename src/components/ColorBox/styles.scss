@@ -1,0 +1,8 @@
+@import '../../styles/main.scss';
+
+.color-box {
+  border: 0.2rem solid var(--color-black);
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+}

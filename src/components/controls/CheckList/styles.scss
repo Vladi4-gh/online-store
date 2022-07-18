@@ -1,0 +1,19 @@
+@import '../../../styles/main.scss';
+
+.check-list {
+  border: 0.3rem solid var(--color-red);
+  border-radius: 1rem;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+
+  &_row {
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .title {
+    padding: 0 0.5rem;
+  }
+}

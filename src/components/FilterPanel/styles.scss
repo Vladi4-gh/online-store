@@ -1,0 +1,19 @@
+@import '../../styles/main.scss';
+
+.filters {
+  box-sizing: border-box;
+  padding: var(--size-container-gap);
+  width: 34rem;
+
+  & > * {
+    margin-bottom: var(--size-container-gap);
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .colors {
+    display: flex;
+  }
+}

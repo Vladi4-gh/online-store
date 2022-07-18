@@ -1,0 +1,18 @@
+@import '../../styles/main.scss';
+
+.goods-panel {
+  overflow: hidden;
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--size-container-gap) var(--size-container-gap) 0;
+  }
+
+  .no-items {
+    font-size: var(--size-big-text);
+    margin-top: 10rem;
+    text-align: center;
+  }
+}

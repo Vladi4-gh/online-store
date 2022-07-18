@@ -1,0 +1,11 @@
+@import '../../../styles/main.scss';
+
+.search-textbox {
+  display: flex;
+
+  input {
+    border: 0.3rem solid var(--color-red);
+    border-radius: 1rem;
+    width: 100%;
+  }
+}
