@@ -108,7 +108,7 @@ const filterGoods = (goods: Good[], filter: Filter): Good[] => {
   const isOnlyPopularSpecification = (good: Good, filter: Filter): boolean => (filter.isOnlyPopular ? good.isPopular : true);
   const specifications = [textSpecification, priceSpecification, availableQuantitySpecification, yearOfIssueSpecification, manufacturersSpecification, colorsSpecification, sizesSpecification, isOnlyPopularSpecification];
 
-  return goods.filter((good) => specifications.reduce((result, specification) => result && specification(good, filter), true));
+  return goods.filter((good) => specifications.every((specification) => specification(good, filter)));
 };
 
 const sortGoods = (goods: Good[], sortValue: SortValue): Good[] => {
